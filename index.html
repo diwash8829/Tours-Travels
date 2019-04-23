@@ -1,17 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="home.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./CSS/home.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<title>Home Page|Travel & Tours</title>
+<title>Home Page | Travel & Tours</title>
 </head>
 <body>
-	<div class="top-nav">
-		<button>Support <i class="fas fa-arrow-down"></i></button>
-		<button>Booking Status <i class="fas fa-arrow-down"></i></button>
-		<button>Cancellation <i class="fas fa-arrow-down"></i></button>
-		<button>Login <i class="fas fa-arrow-down"></i></button>
-		<button>Sign Up <i class="fas fa-arrow-down"></i></button>
+	<div class="nav">
+		<img class="pic1" src="Images/T&T.PNG" alt="Logo">
+		<img class="pic2" src="Images/Logo.png" alt="Logo">
+		<div class="top-nav">
+			<button>Support <i class="fas fa-arrow-down"></i></button>
+			<button>Booking Status <i class="fas fa-arrow-down"></i></button>
+			<button>Cancellation <i class="fas fa-arrow-down"></i></button>
+			<button>Login <i class="fas fa-arrow-down"></i></button>
+			<button>Sign Up <i class="fas fa-arrow-down"></i></button>
+		</div>
+		<div class="main-menu">
+			<span><a href="#"><i class="fas fa-plane" style="transform: rotate(-90deg);"></i> Flights</a></span>
+			<span><a href="#"><i class="fas fa-bed"></i> Hotels</a></span>
+			<span><a href="#"><i class="fas fa-bus"></i> Bus</a></span>
+			<span><a href="#"><i class="fas fa-umbrella-beach"></i> Holidays</a></span>
+			<span><a href="#"><i class="fas fa-motorcycle"></i> Bike Rental</a></span>
+			<span><a href="#"><i class="fas fa-taxi"></i> Cabs</a></span>
+		</div>
+	</div>
+	<hr>
+
+	<div class="container">
+		<img src="Images/flight.jpg" alt="Flight">
+		<div class="text1">
+			<p>Book Your Flights</p>
+		</div>
+		<div class="buttons">
+			<button class="b1 active">One Way</button>			
+			<button class="b2">Round Trip</button>			
+		</div>
+			<div class="text2">
+		<div class="from">
+			<p>From</p>
+			<i class="fas fa-map-marker-alt"></i>
+			<input type="text" name="from" placeholder="Type at least 3 letter">
+		</div>
+		<div class="to">
+			<p>To</p>
+			<i class="fas fa-map-marker-alt"></i>
+			<input type="text" name="to" placeholder="Type at least 3 letter">
+		</div>
+		<div class="departure">
+			<p style="margin-left: -17px">Departure</p>
+			<input type="date" name="departure" placeholder="Select a date">
+		</div>
+		<div class="return">
+			<p style="margin-left: -17px">Return</p>
+			<input type="date" name="return" placeholder="Select a date">
+		</div>
+		</div>
 	</div>
 
 </body>

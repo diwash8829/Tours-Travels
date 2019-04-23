@@ -1,7 +1,147 @@
 body{
 	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+	height: 111px;
+	width: 100%;
+	background: white;
 }
 
 .top-nav button{
 	padding: 10px;
+    float: left;
+    width: 15%;
+    cursor:pointer; 
+}
+
+.top-nav {
+    margin-left: 23%;
+}
+
+.top-nav i {
+    font-size: 11px;
+    color: #ff3102;
+}
+
+.nav img {
+    position: absolute;
+    height: 18%;
+}
+
+.nav .pic2{
+	left: 12.5%;
+}
+
+.main-menu {
+    position: absolute;
+    top: 13%;
+    left: 20%; 
+    font-size: 1.1em;
+}
+
+.main-menu a{
+    padding: 0px 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4a4d51;
+}
+
+.container{
+	position: relative;
+}
+
+hr{
+	margin: 0px;
+	padding: 0px;
+	border-color: red;
+}
+
+.text1{
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	font-size: 2.5em;
+	color: white;
+	font-weight: bold; 
+}
+
+.buttons{
+	position: absolute;
+	top: 10%;
+	left: 35%;
+}
+
+
+.text2{
+	position: absolute;
+	background-color: white;
+	top: 20%;
+	bottom: 15%;
+	left: 5%;
+	width: 49%;
+	border: 1px solid green;
+	position: absolute;
+	border-radius: 3px;
+}
+
+.b1, .b2{
+    font-size: 22px;
+    padding: 14.2px;
+    float: left;
+    background-color: white;
+    border: 0.5px solid green;
+    outline: none;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.active{
+	background-color: #12B58A;
+	color: white;
+}
+
+.from, .departure{
+	width: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+
+.departure{
+	margin-left: 27px;
+}
+
+.to, .return{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+
+.text2 p{
+margin: 0;
+padding-left: 16px;
+}
+
+.text2 input{
+	width: 250px;
+	height: 30px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #cedbd5;
+	padding: 3px 3px 3px 25px;
+	margin-top: 5px;
+}
+
+.text2 i{
+	position: relative;
+	left: 7%;
+	opacity: 0.5;
+	top: 2px;
 }
