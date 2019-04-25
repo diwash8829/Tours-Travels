@@ -41,6 +41,15 @@ body{
     font-size: 1.1em;
 }
 
+.cabdate{
+	height: 40px;
+	width: 120px;
+	float: left;
+	outline: none;
+	text-decoration: none;
+	border: 1px solid green;
+}
+
 .main-menu a{
     padding: 0px 40px;
     font-weight: bold;
@@ -48,14 +57,39 @@ body{
     color: #4a4d51;
 }
 
-.container{
-	position: relative;
+.container {
+    position: relative;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-width: 2px 0px;
+	border-style: solid;
+	border-color: red;
 }
 
-hr{
-	margin: 0px;
-	padding: 0px;
-	border-color: red;
+.flight{
+	background-image: url(../Images/flight.jpg);
+}
+
+.hotel{
+	background-image: url(../Images/hotel.jpg);
+}
+
+.bus{
+	background-image: url(../Images/bus.jpg);
+}
+
+.holiday{
+	background-image: url(../Images/holiday.jpg);
+}
+
+.bike{
+	background-image: url(../Images/bike.jpg);
+}
+
+.cab{
+	background-image: url(../Images/CABS.jpg);
 }
 
 .text1{
@@ -108,9 +142,14 @@ hr{
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-
 }
 
+.destination{
+	width: 100%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 
 .departure{
 	margin-left: 27px;
@@ -121,8 +160,6 @@ hr{
 	margin-right: 10px;
 	margin-top: 10px;
 }
-
-
 
 .text2 p{
 margin: 0;
@@ -139,9 +176,158 @@ padding-left: 16px;
 	margin-top: 5px;
 }
 
+.text2 input[type="checkbox"]{
+	width: 12px;
+	height: 12px;
+	outline: none;
+	font-size: 13px;
+}
+
+
+select{
+	width: 281px;
+	height: 30px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #cedbd5;
+	padding: 3px 3px 3px 25px;
+	margin-top: 5px;
+}
+
+.bikes{
+	width: 100px;
+	height: 30px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #cedbd5;
+	padding: 3px 3px 3px 25px;
+	margin-top: 5px;
+}
+
+.number{
+	margin-top: 153px;
+    margin-left: 28px;
+}
+
+
+.select-first{
+	margin-left: 18px;
+}
+
+.destination input{
+	width: 90%;
+}
+
 .text2 i{
 	position: relative;
-	left: 7%;
+	left: 8%;
 	opacity: 0.5;
 	top: 2px;
+}
+
+.destination i{
+	position: relative;
+	left: 4%;
+	opacity: 0.5;
+	top: 2px;
+}
+
+.adult {
+    width: 24.3%;
+    display: inline-block;
+    font-weight: 600;
+    margin: 26px 0 0 40px;
+}
+
+label {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+label span {
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.adult > div {
+    width: 105.5%;
+    border: 1px solid #bcc8d1;
+    margin-top: 6px;
+    border-radius: 4px;
+}
+
+.minus {
+    border-right: 1px solid #bcc8d1;
+    cursor: pointer;
+    color: #12B58A;
+    height: 30px;
+    position: relative;
+}
+
+.adult div div {
+    display: inline-block;
+    width: 31.3%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.plus {
+    border-left: 1px solid #bcc8d1;
+    cursor: pointer;
+    color: #12B58A;
+    height: 30px;
+    position: relative;
+}
+
+.search{
+	font-weight: bold;
+    background-color: #b70303;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 30px;
+    float: right;
+    margin: 23px 25px 0px 0px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.footer{
+	background-color: #dee3ea;
+    font-size: 16px;
+    padding: 25px 0px;
+    margin: auto;
+}
+
+.points{
+	display: table-cell;
+    margin-right: 30px;
+    vertical-align: top;
+    padding:0 82px;
+}
+
+.clear{
+	clear: both;
+}
+
+.points div{
+	display: inline-block;
+	font-size: 20px;
+}
+
+.points i{
+	font-size: 45px;
+	margin-right: 10px;
+}
+
+.bold{
+	font-size: 25px;
+}
+
+.note{
+margin-left: 10px;
+font-size: 12px;
+margin-top: 20px;
 }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./CSS/home.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<title>Bike Rental | Travel & Tours</title>
+</head>
+<body>
+	<div class="nav">
+		<img class="pic1" src="Images/T&T.PNG" alt="Logo">
+		<img class="pic2" src="Images/Logo.png" alt="Logo">
+		<div class="top-nav">
+			<button>Support <i class="fas fa-arrow-down"></i></button>
+			<button>Booking Status <i class="fas fa-arrow-down"></i></button>
+			<button>Cancellation <i class="fas fa-arrow-down"></i></button>
+			<button>Login <i class="fas fa-arrow-down"></i></button>
+			<button>Sign Up <i class="fas fa-arrow-down"></i></button>
+		</div>
+		<div class="main-menu">
+			<span><a href="index.html"><i class="fas fa-plane" style="transform: rotate(-90deg);"></i> Flights</a></span>
+			<span><a href="hotel.html"><i class="fas fa-bed"></i> Hotels</a></span>
+			<span><a href="bus.html"><i class="fas fa-bus"></i> Bus</a></span>
+			<span><a href="holiday.html"><i class="fas fa-umbrella-beach"></i> Holidays</a></span>
+			<span><a href="bike.html"><i class="fas fa-motorcycle"></i> Bike Rental</a></span>
+			<span><a href="cab.html"><i class="fas fa-taxi"></i> Cabs</a></span>
+		</div>
+	</div>
+
+	<div class="container bike">
+		<!-- <img src="Images/bike.jpg" alt="Flight" style="vertical-align: bottom; width: 100%"> -->
+		<div class="text1">
+			<p>Rent a Bike</p>
+		</div>
+			<div class="text2">
+		<div class="from">
+			<p>Choose City</p>
+				<select class="select-first">
+ 					 <option value="Select">Select</option>
+ 					 <option value="Kathmandu">Kathmandu</option>
+ 					 <option value="Pokhara">Pokhara</option>
+				     <option value="Dhangadhi">Dhangadhi</option>
+				     <option value="Chitwan">Chitwan</option>
+            </select>
+		</div>
+		<div class="to">
+			<p style="padding-left: 0px;">Choose Starting Point</p>
+			<select>
+ 					 <option value="Select">Select</option>
+ 					 <option value="Baneshwor">Baneshwor</option>
+ 					 <option value="Lakeside">Lakeside</option>
+				     <option value="Taranagar">Taranagar</option>
+				     <option value="Buddha Chowk">Buddha Chowk</option>
+            </select>
+		</div>
+		<div class="departure">
+			<p style="margin-left: -17px">Select Departure Date & Time</p>
+			<input type="datetime-local" name="departure" placeholder="Select a date">
+		</div>
+		<div class="return">
+			<p style="margin-left: -17px">Select Return Date & Time</p>
+			<input type="datetime-local" name="return" placeholder="Select a date">
+		</div>
+
+		<div class="number">
+			<p style="padding-left: 0px;">No. of Bikes</p>
+			<SELECT class="bikes">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</SELECT>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="note">
+		<p><u>Terms and consitions:</u></p>
+		<p>1.Starting and Drop-Off point will be same.</p>
+		<p>2.Valid DL is mandatory.</p>
+	    <p>3.Customer should return bike on selected date and time.</p>
+	</div>
+
+	<br />
+
+	<div>
+		<input type="checkbox" name="tick" style="margin: 0px; margin-left: 25px;" checked="true">
+		<p style="display: inline-block; padding: 0px; font-size: 13px">I accept the terms and conditions.</p>
+	</div>
+	
+	
+	<button class="search" style="margin-top: -65px">Book Bike</button>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="points">
+		<i class="fas fa-check-circle"></i>
+		<div>Plan Your Holidays
+			<br>
+		<span class="bold"><b>Explore Packages</b></span>
+	</div>
+	</div>
+		<div class="points">
+		<i class="fas fa-check-circle"></i>
+		<div>Explore Places
+			<br>
+		<span class="bold"><b>Friends & Family</b></span>
+	</div>
+	</div>
+		<div class="points">
+		<i class="fas fa-check-circle"></i>
+		<div>24*365
+			<br>
+		<span class="bold"><b>Free Phone Assistance</b></span>
+	</div>
+	</div>
+</div>
+
+
+</body>
+</html>
