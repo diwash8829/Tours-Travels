@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #e8e2e2;
+  padding: 20px 0 30px 0;
+  } 
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.col {
+  float: left;
+    margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+.cols
+{
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #686;
+  border-radius: 0px 0px 4px 4px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <form action="verify.html">
+    <div class="row">
+      <h2 style="text-align:center">Register Here !!</h2>
+
+	<div class="col">
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="email" name="Email" placeholder="Email" required>
+        
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="text" name="Mobile Number" placeholder="10 Digit Mobile Number" pattern="[0-9]{10}" required>
+        <input type="submit" value="Sign Up">
+    </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col cols">
+      <a href="index.html" style="color:white" class="btn">Cancel</a>
+    </div>
+    <div class="col cols">
+    <a href="login.html" style="color:white;" class="btn">Sign In</a>
+    </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
