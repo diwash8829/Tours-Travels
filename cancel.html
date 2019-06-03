@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 46%;
+  margin-left: 33%;
+  margin-top: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #e8e2e2;
+  padding: 20px 0 30px 0;
+  } 
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.col {
+  float: left;
+    margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+.cols
+{
+  width: 95%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #686;
+  border-radius: 0px 0px 4px 4px;
+}
+
+li{
+  padding-right: 40px;
+}
+
+ol{
+  display: flex;
+  background-color: #def9bb;
+  padding: 25px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <form action="verify.html">
+    <div class="row">
+      <h2 style="text-align:center">How to cancel a booking?</h2>
+      <div class="steps">
+        <ol>
+          <li>Select Booking</li>
+          <li>Check Cancellation Charge</li>
+          <li>Confirm Cancellation</li>
+        </ol>
+      </div>
+
+	<div class="col">
+		<label>Enter Your Booking Reference Number</label>
+        <input type="text" name="Name" required><br><br><br>
+        <label>Enter Your Email</label>
+        <input type="email" name="Email" required>
+        <input type="submit" value="Check Status">
+        
+    </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col cols">
+      <a href="index.html" style="color:white" class="btn">Cancel</a>
+    </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

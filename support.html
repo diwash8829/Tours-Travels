@@ -7,8 +7,10 @@
 <style type="text/css">
 	
 	body{
+        font-family: Arial, Helvetica, sans-serif;
 		background-color: #EFECEC;
-		margin: 0;	}
+		margin: 0;
+	}
 
 	.first{
 		font-size: 2em;
@@ -34,6 +36,7 @@
     border: 1px solid #c4cad3;
     background-color: white;
     margin-left: 87px;
+    display: inline-block;
 	}
 
 	.col {
@@ -41,13 +44,81 @@
   width: 50%;
 }
 
-span{
+  .location{
+  	    position: absolute;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 69px;
+}
+
+.down-loc{
+	display: flex;
+	margin-top: 75px;
+	margin-left: 6.5%;
+}
+
+.loc{
+	width: 33.3%;
+}
+  span{
 	color: #12B58A;
 }
+
+.logo{
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.header{
+	height: 111px;
+	background: white;
+	width: 100%;
+}
+
+.navs{
+	display: flex;
+	margin: 0;
+	justify-content: space-around;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.navs {
+	list-style-type: none;
+}
+
+.navs a{
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+.navs i{
+	color: red;
+}
+
+
+
 
 </style>
 </head>
 <body>
+		<div class="header">
+			<div class="logo">
+					<img class="pic1" src="Images/Logos.PNG" alt="Logo">
+			</div>
+			<ul class="navs">
+				<li><a href="#">Support <i class="fas fa-arrow-down"></i></a></li>
+				<li><a href="#">Booking Status <i class="fas fa-arrow-down"></i></a></li>
+				<li><a href="#">Cancellation <i class="fas fa-arrow-down"></i></a></li>
+				<li><a href="#">Login <i class="fas fa-arrow-down"></i></a></li>
+				<li><a href="#">Sign Up <i class="fas fa-arrow-down"></i></a></li>
+			</ul>
+			
+		</div>
+
+
+    
 	
 	<div class="first">
 		<p style="margin-top: 0">CONTACT US | SUPPORT</p> 
@@ -73,11 +144,35 @@ span{
 </div>
 
 	<div class="location">
-			<i class="fas fa-map-marker-alt" style="font-size: 21px; margin-left: -26px"> Kathmandu (Head Office)</i>
-			<p style="margin-top: 5px; margin-left: -3px; font-size: 18px">Shantinagar Kathmandu<br>
-			   Near Petrol Pump<br>
+			<i class="fas fa-map-marker-alt" style="font-size: 21px; margin-left: -26px"> Pokhara</i>
+			<p style="margin-top: 5px; margin-left: -3px; font-size: 18px">Mahendra Pool, Pokhara<br>
+			   Near Baseline School<br>
+		       Tel: <span>01-5698259</span><br>
+	           Email: <span>carepkr@tnt.com</span></p>
+	</div>
+
+	<div class="down-loc">
+			<div class="loc">
+			<i class="fas fa-map-marker-alt" style="font-size: 21px; margin-left: -26px"> Chitwan</i>
+			<p style="margin-top: 5px; margin-left: -3px; font-size: 18px">Buddha Chowk, Chitwan<br>
+			   Near BP Memorial Hospital<br>
 		       Tel: <span>01-5698569</span><br>
-	           Email: <span>care@tnt.com</span></p>
+	           Email: <span>carecht@tnt.com</span></p>
+	</div>
+		<div class="loc">
+			<i class="fas fa-map-marker-alt" style="font-size: 21px; margin-left: -26px"> Dhangadhi</i>
+			<p style="margin-top: 5px; margin-left: -3px; font-size: 18px">Main Road, Dhangadhi<br>
+			   Near Jalsa Hotel<br>
+		       Tel: <span>091-5636969</span><br>
+	           Email: <span>caredhn@tnt.com</span></p>
+	</div>
+		<div class="loc">
+			<i class="fas fa-map-marker-alt" style="font-size: 21px; margin-left: -26px"> Biratnagar</i>
+			<p style="margin-top: 5px; margin-left: -3px; font-size: 18px">Prithvi Chowk, Janakpur<br>
+			   Near RR College<br>
+		       Tel: <span>01-5698569</span><br>
+	           Email: <span>carebrt@tnt.com</span></p>
+	</div>
 	</div>
 
 

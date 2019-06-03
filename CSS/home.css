@@ -52,7 +52,7 @@ body{
 }
 
 .main-menu a{
-    padding: 0px 40px;
+    margin: 0px 40px;
     font-weight: bold;
     text-decoration: none;
     color: #4a4d51;
@@ -332,3 +332,125 @@ margin-left: 10px;
 font-size: 12px;
 margin-top: 20px;
 }
+
+.fa-question-circle{
+	    color: red;
+    font-size: 45px;
+    margin-left: 180px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+hr{
+	border: 1px solid red;
+	width: 100%;
+	margin: 0;
+ }
+
+ .header{
+ 	background-color: #707070;
+ 	height: 75px;
+ 	width: 100%;
+ 	display: flex;
+ }
+
+ .row{
+ 	align-self: center;
+ 	padding: 13px 60px;
+ 	color: #fcfcfc;
+ }
+
+ .n-hdr{
+ 	    display: flex;
+    padding: 7px 0;
+    justify-content: space-evenly;
+    color: #fcfcfc;
+    margin-top: 6px;
+ }
+
+ .modify{
+ 	    height: 37px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    width: 99px;
+    font-size: 18px;
+    background-color: #5fef86;
+    cursor: pointer;
+    }
+
+    .modify:hover{
+    	background-color: #24c421;
+    	
+    }
+.filter{
+	    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    padding: 8px 0;
+}
+
+th{
+	background-color: #8d929b;
+	height: 30px;
+
+	
+}
+
+td{
+	background-color: white;
+	height: 100px;
+    align-items: center;
+}
+
+.col{
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+table{
+	width: 100%;
+	/*border-collapse: collapse;*/
+	border-spacing: 0px 8px;
+}
+
+.rupees{
+	font-size: 25px;
+	color: red;
+}
+
+.refund{
+	font-size: 12px;
+}
+
+.book button{
+width: 105px;
+    height: 45px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: #d11212;
+    border-radius: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.book button:hover{
+	background-color: red;
+}
+
+.f-details a{
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.menu:hover{
+	color: red;
+	border-bottom: 4px solid red;
+	transition: 0.3s;
+}
+
+
+
